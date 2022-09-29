@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
+
+
+/* Desktop layout*/
+@media (min-width:1400px) {
+    .wrapper{
+        margin: 91px 124px;
+    }
+
+    h1{
+        font-family: 'Roboto Slab',sans-serif;
+        font-size: 55px;
+    }
+
+    p.content-1{
+        display: block;
+        font-family: 'Roboto',sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        width: 70%;
+    }   
+    .content-1:last-child{
+        margin-top: 20px;
+        width: 68%;
+    }
+
+    .flex-1{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+/* tablet layout */
+@media (max-width:830px) {
+    
+}
+
+/* mobile layout */
+
+@media (max-width:375px) {
+    
+}
