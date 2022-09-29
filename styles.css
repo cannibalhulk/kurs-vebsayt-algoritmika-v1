@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
+
+body{
+    font-size: 'Roboto',sans-serif;
+}
+
+.wrapper{
+    margin: 91px 124px;
+}
+
+h1{
+    font-family: 'Roboto Slab',sans-serif;
+    font-size: 55px;
+}
+
+p.content-1{
+    display: block;
+    font-family: 'Roboto',sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    width: 70%;
+}   
+.content-1:last-child{
+    margin-top: 20px;
+    width: 68%;
+}
+
+.flex-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-2{
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto',sans-serif;
+    margin-top: 94px;
+}
+
+p.c-title{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+div.content-flex> p:last-child{
+    font-size: 18px;
+    width:160px;
+}
+
+/* Desktop layout*/
+@media (min-width:1400px) {
+    body{
+        font-size: 'Roboto',sans-serif;
+    }
+
+    .wrapper{
+        margin: 91px 124px;
+    }
+
+    h1{
+        font-family: 'Roboto Slab',sans-serif;
+        font-size: 55px;
+    }
+
+    p.content-1{
+        display: block;
+        font-family: 'Roboto',sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        width: 70%;
+    }   
+    .content-1:last-child{
+        margin-top: 20px;
+        width: 68%;
+    }
+
+    .flex-1{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .flex-2{
+        width: 70vw;
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Roboto',sans-serif;
+        margin-top: 94px;
+    }
+
+    p.c-title{
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    div.content-flex> p:last-child{
+        font-size: 18px;
+        width:160px;
+    }
+}
+
+/* tablet layout */
+@media (max-width:830px) {
+    body{
+        font-size: 'Roboto',sans-serif;
+    }
+    .wrapper{
+        margin: 56px 72px;
+    }
+
+    h1{
+        font-family: 'Roboto Slab',sans-serif;
+        font-size: 32px;
+    }
+
+    p.content-1{
+        display: block;
+        font-family: 'Roboto',sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        width: 70%;
+    }
+
+    div.div-2 > img{
+        width: 170px;
+        padding-top: 30px;
+
+    }
+
+    div.div-3 > img{
+        display: none;
+    }
+    
+    .flex-1{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .flex-2{
+        width: 50vw;
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Roboto',sans-serif;
+        margin-top: 30px;
+    }
+
+    p.c-title{
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    div.content-flex> p:last-child{
+        font-size: 11px;
+        width:160px;
+    }
+}
+
+/* mobile layout */
+
+@media (max-width:375px) {
+    body{
+        font-size: 'Roboto',sans-serif;
+    }
+    .wrapper{
+        margin: 56px 32px;
+    }
+
+    .flex-1{
+        display: block;
+    }
+
+    .div-1 > p{
+        display: block;
+        font-family: 'Roboto',sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        width: 100vw;
+    }
+
+    h1{
+        font-family: 'Roboto Slab',sans-serif;
+        font-size: 26px;
+    }
+
+    div.div-2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    div.content-flex> p:last-child{
+        font-size: 10px;
+        width:160px;
+    }
+}
