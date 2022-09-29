@@ -48,6 +48,27 @@ div.content-flex> p:last-child{
     width:160px;
 }
 
+.ellipse, .illustration{
+    width:314px;
+}
+
+
+.ellipse{
+    position:absolute;
+    right: 30px;
+    top: 280px;
+    left: -30px;
+    width: 370px;
+    z-index: -1;
+}
+
+.ellipse-2{
+    position:absolute;
+    width:170px;
+    z-index: -1;
+    top:189px;
+    right:20px;
+}
 /* Desktop layout*/
 @media (min-width:1400px) {
     body{
@@ -135,13 +156,28 @@ div.content-flex> p:last-child{
         display: flex;
         justify-content: space-between;
     }
+
+    .div-1{
+        width:700px;
+    }
+    
+
+    .ellipse{
+        right: 200px;
+        top: 155px;
+        left: 3px;
+        width: 50vw;
+        height: 34.17px;
+        z-index: -1;
+    }
     
     .flex-2{
-        width: 50vw;
+        width: 1%;
         display: flex;
-        justify-content: space-between;
         font-family: 'Roboto',sans-serif;
         margin-top: 30px;
+        margin-left: 0px;
+        margin-right: 0;
     }
 
     p.c-title{
