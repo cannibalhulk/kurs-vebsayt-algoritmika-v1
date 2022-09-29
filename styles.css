@@ -118,6 +118,15 @@ div.content-flex> p:last-child{
         font-size: 18px;
         width:160px;
     }
+
+    #wrap{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #wrap > div:nth-child(2){
+        margin-left: 50%;
+    }
 }
 
 /* tablet layout */
@@ -141,6 +150,10 @@ div.content-flex> p:last-child{
         font-weight: 400;
         width: 70%;
     }
+    .content-1:last-child
+    {
+        width: 70%;
+    }
 
     div.div-2 > img{
         width: 170px;
@@ -158,7 +171,11 @@ div.content-flex> p:last-child{
     }
 
     .div-1{
-        width:700px;
+        width:70%;
+    }
+
+    .div-2{
+        width: 30%;
     }
     
 
@@ -172,12 +189,10 @@ div.content-flex> p:last-child{
     }
     
     .flex-2{
-        width: 1%;
         display: flex;
         font-family: 'Roboto',sans-serif;
-        margin-top: 30px;
-        margin-left: 0px;
-        margin-right: 0;
+        margin-top:30px;
+        width:40px;
     }
 
     p.c-title{
@@ -187,7 +202,11 @@ div.content-flex> p:last-child{
 
     div.content-flex> p:last-child{
         font-size: 11px;
-        width:160px;
+        width:104px;
+    }
+
+    #wrap{
+        display: flex;
     }
 }
 
@@ -198,11 +217,38 @@ div.content-flex> p:last-child{
         font-size: 'Roboto',sans-serif;
     }
     .wrapper{
-        margin: 56px 32px;
+        margin: 56px 32px 56px 32px;
+        width: 80vw;
     }
 
     .flex-1{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .content-1:last-child{
+        width: 100vw;
+    }
+
+    p.content-1{
+        width:200%;
+    }
+
+    .flex-2{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    #wrap{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    #wrap> div:nth-child(2){
+        margin-left: 40px;
     }
 
     .div-1 > p{
@@ -211,6 +257,30 @@ div.content-flex> p:last-child{
         font-size: 12px;
         font-weight: 400;
         width: 100vw;
+        word-break:break-all;
+        white-space:unset;
+    }
+
+    .ellipse, .illustration{
+        width: 146px;
+        height: 146px;
+    }
+
+    .illustration{
+        margin-left: 200px;
+    }
+
+    .ellipse{
+        right: 0px;
+        top: 130px;
+        left: 56px;
+        height: 34.17px;
+        z-index: -1;
+    }
+
+    div.content-flex> p:last-child{
+            font-size: 10px;
+            width:80px;
     }
 
     h1{
@@ -223,9 +293,5 @@ div.content-flex> p:last-child{
         align-items: center;
         justify-content: center;
     }
-
-    div.content-flex> p:last-child{
-        font-size: 10px;
-        width:160px;
-    }
+    
 }
