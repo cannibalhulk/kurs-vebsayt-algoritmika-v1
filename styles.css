@@ -212,6 +212,90 @@ div.content-flex> p:last-child{
 
 /* mobile layout */
 
+@media (max-width:414px){
+    body{
+        font-size: 'Roboto',sans-serif;
+    }
+    .wrapper{
+        margin: 56px 32px 56px 32px;
+        width: 80vw;
+    }
+
+    .flex-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .content-1:last-child{
+        width: 100vw;
+    }
+
+    p.content-1{
+        width:200%;
+    }
+
+    .flex-2{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    #wrap{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    #wrap> div:nth-child(2){
+        margin-left: 40px;
+    }
+
+    .div-1 > p{
+        display: block;
+        font-family: 'Roboto',sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        width: 100vw;
+        word-break:break-all;
+        white-space:unset;
+    }
+
+    .ellipse, .illustration{
+        width: 146px;
+        height: 146px;
+    }
+
+    .illustration{
+        margin-left: 200px;
+    }
+
+    .ellipse{
+        right: 0px;
+        top: 130px;
+        left: 56px;
+        height: 34.17px;
+        z-index: -1;
+    }
+
+    div.content-flex> p:last-child{
+            font-size: 10px;
+            width:80px;
+    }
+
+    h1{
+        font-family: 'Roboto Slab',sans-serif;
+        font-size: 26px;
+    }
+
+    div.div-2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+
 @media (max-width:375px) {
     body{
         font-size: 'Roboto',sans-serif;
